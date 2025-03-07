@@ -55,7 +55,7 @@
 
 .card{
     flex: 1;
-    background: #6ba956;
+    background: #beffa8;
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -72,10 +72,10 @@
 
 .card-title{
     font-size: 16px;
-    color: #ffff;
+    color: #23660c;
 }
 
 .card-number{
     font-size: 24px;
-    color: #ffff;
+    color: #23660c;
 }
