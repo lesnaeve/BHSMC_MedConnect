@@ -1,0 +1,13 @@
+.announcements-content{
+    width: 75%;
+}
+
+.announcements-title{
+    color: #04ace2;
+}
+
+.announcements-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

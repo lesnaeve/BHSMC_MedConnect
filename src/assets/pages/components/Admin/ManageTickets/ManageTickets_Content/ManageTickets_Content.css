@@ -1,0 +1,15 @@
+.manage_tickets-content{
+    width: 75%;
+}
+
+.manage_tickets-title{
+    color: #04ace2;
+}
+
+.manage_tickets-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+

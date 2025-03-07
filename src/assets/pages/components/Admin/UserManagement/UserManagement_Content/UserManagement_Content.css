@@ -1,0 +1,14 @@
+.user_management-content{
+    width: 75%;
+}
+
+.user_management-title{
+    color: #04ace2;
+}
+
+.user_management-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

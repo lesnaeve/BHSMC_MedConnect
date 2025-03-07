@@ -1,0 +1,14 @@
+.faqs_management-content{
+    width: 75%;
+}
+
+.faqs_management-title{
+    color: #04ace2;
+}
+
+.faqs_management-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

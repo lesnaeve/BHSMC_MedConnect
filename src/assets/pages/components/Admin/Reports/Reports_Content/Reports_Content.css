@@ -1,0 +1,13 @@
+.reports-content{
+    width: 75%;
+}
+
+.reports-title{
+    color: #04ace2;
+}
+
+.reports-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
