@@ -1,0 +1,17 @@
+.user-activity_list{
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-activity-action{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user-activity_list h2{
+    color: #04ace2;
+}
+
