@@ -1,4 +1,5 @@
 import React from 'react'
+import { IoMdNotifications } from 'react-icons/io';
 import './Dashboard_Profile.css'
 import Admin_ProfileHeader from './Dashboard_ProfileHeader'
 
@@ -14,7 +15,15 @@ const Dashboard_Profile = () => {
             </div>
         </div>
         <div className='notifications'>
-
+          <div className='notificationHeader'>
+            <IoMdNotifications className='notificationIcon' />
+            <h4 className='notificationTitle'>Notifications</h4>
+          </div>
+          <div className='notificationList'>
+            <li className='notificationItem'>Ok na to</li>
+            <li className='notificationItem'>Ok na to</li>
+            <li className='notificationItem'>Ok na to</li>
+          </div>
         </div>
     </div>
   )
