@@ -1,17 +1,90 @@
-.user-activity_list{
+.user-activity_list {
     display: flex;
     margin: 1rem 0;
     justify-content: space-between;
     align-items: center;
 }
 
-.user-activity-action{
+.user-activity-action {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.user-activity_list h2{
+.user-activity_list h2 {
     color: #04ace2;
 }
 
+.user-activity-table {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.user-activity-table table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    border-radius: 10px;
+    /* Add border radius here */
+    overflow: hidden;
+    /* Add this to ensure the border radius is applied correctly */
+    text-transform: uppercase;
+}
+
+.user-activity-table td{
+    border: none;
+    /* Remove all borders */
+    border-bottom: 1px solid #000000;
+    /* Keep the bottom border */
+    padding: 10px;
+    text-align: justify;
+}
+.user-activity-table th {
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+}
+
+.user-activity-table th:first-child,
+.user-activity-table td:first-child {
+    width: 50%; 
+}
+
+.user-activity-table td:nth-child(2),
+.user-activity-table td:nth-child(3),
+.user-activity-table td:last-child {
+    text-align: center;
+}
+
+.user-activity-table tbody tr:hover {
+    background-color: #beffa8;
+    /* Change this to your desired hover color */
+    cursor: pointer;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center; /* Aligns the button to the right */
+    margin-top: 20px; /* Space above the button */
+  }
+
+.btn-box-pagination {
+    background-color: #60bb44;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 26px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
