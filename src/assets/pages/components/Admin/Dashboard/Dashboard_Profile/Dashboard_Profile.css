@@ -109,8 +109,12 @@
     margin-top: 10px; /* Space above the list */
 }
 
+.notificationList li{
+    font-size: 14px;
+}
+
 .notificationItem {
-    padding: 10px 20px; /* Padding for each notification item */
+    padding: 5px 20px; /* Padding for each notification item */
     border-bottom: 1px solid #23660c; /* Divider between items */
     transition: background-color 0.3s; /* Smooth background transition */
 }
