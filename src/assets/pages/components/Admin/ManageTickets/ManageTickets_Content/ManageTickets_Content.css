@@ -1,15 +1,123 @@
-.manage_tickets-content{
-    width: 75%;
+.manage_tickets-content {
+    width: 100%;
 }
 
-.manage_tickets-title{
+.manage_tickets-title {
     color: #04ace2;
 }
 
-.manage_tickets-header{
+.manage_tickets-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.manage_tickets-activity {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
+.manage-tickets-search {
+    background: #dde6ed;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.manage-tickets-search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px 10px;
+    font-size: 15px;
+    display: flex;
+    outline: none;
+    width: 100%;
+}
+
+.manage-tickets-search .search-icon {
+    color: #969393;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.search-icon:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.manage-tickets-list {
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.manage-tickets-list table {
+    width: 100%;
+    border-collapse: collapse;
+    text-transform: uppercase;
+    table-layout: fixed;
+    /* Ensures that the table respects the widths set */
+}
+
+.manage-tickets-list td{
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+.manage-tickets-list th{
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+}
+
+.manage-tickets-list tbody tr:hover{
+    background-color: #beffa8;
+    cursor: pointer;
+}
+
+.manage-tickets-list th:first-child,
+.manage-tickets-list td:first-child {
+    width: 10%;
+}
+
+.manage-tickets-list th:nth-child(2),
+.manage-tickets-list td:nth-child(2){
+    width: 25%;
+}
+
+.manage-tickets-list th:nth-child(3),
+.manage-tickets-list td:nth-child(3){
+    width: 10%;
+}
+
+.manage-tickets-list th:nth-child(4),
+.manage-tickets-list td:nth-child(4){
+    width: 10%;
+}
+
+.manage-tickets-list th:nth-child(5),
+.manage-tickets-list td:nth-child(5){
+    width: 10%;
+}
+
+.manage-tickets-list th:nth-child(6),
+.manage-tickets-list td:nth-child(6){
+    width: 10%;
+}
+
+.manage-tickets-list th:last-child,
+.manage-tickets-list td:last-child{
+    width: 10%;
+}
+
+.manage-tickets-list .table-ico{
+    font-size: 18px;
+}
