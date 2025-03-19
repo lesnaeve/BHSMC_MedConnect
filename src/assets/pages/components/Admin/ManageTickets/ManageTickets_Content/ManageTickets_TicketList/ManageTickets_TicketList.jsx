@@ -23,7 +23,7 @@ const ManageTickets_TicketList = () => {
                 <tr>
                     <td>Urgent</td>
                     <td>Wala pong Internet</td>
-                    <td>Internet</td>
+                    <td>Internet Issues</td>
                     <td>OR Dept</td>
                     <td>03/11/2025</td>
                     <td>12:21:08 PM</td>
