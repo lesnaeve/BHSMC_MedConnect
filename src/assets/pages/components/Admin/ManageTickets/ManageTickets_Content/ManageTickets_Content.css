@@ -19,8 +19,8 @@
 }
 
 .manage-tickets-search {
-    background: #dde6ed;
-    padding: 8px 10px;
+    background: #beffa8;
+    padding: 9px 10px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -39,7 +39,7 @@
 }
 
 .manage-tickets-search .search-icon {
-    color: #969393;
+    color: #23660c;
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
