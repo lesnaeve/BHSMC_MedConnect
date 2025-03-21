@@ -45,11 +45,11 @@ const Dashboard_UserActivity = () => {
         </table>
       </div>
 
-      <div className='pagination-container'>
+      <div className='pagination-dashboard'>
         <div>
-          <button className='btn-box-pagination'>Previous</button>
-          <span>Page  of </span>
-          <button className='btn-box-pagination'>Next</button>
+          <button className='btn-box-pagination-dashboard'>Previous</button>
+          <span>Page  of  </span>
+          <button className='btn-box-pagination-dashboard'>Next</button>
         </div>
       </div>
     </div>
