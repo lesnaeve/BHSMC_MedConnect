@@ -77,9 +77,10 @@
     display: flex;
     gap: 30px;
     margin: 40px auto;
+    justify-content: center;
 }
 
-.submit{
+.submit-btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +92,7 @@
     font-size: 19px;
     font-weight: 700;
     cursor: pointer;
+    border-style: hidden;
 }
 
 .forgot-password{
@@ -98,6 +100,13 @@
     margin-top: 27px;
     color: #fff;
     font-size: 18px;
+}
+
+.error-message{
+    padding-left: 62px;
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .forgot-password span{

@@ -7,6 +7,7 @@ import Admin_UserManagement from './assets/pages/Admin/Admin_UserManagement';
 import Admin_Reports from './assets/pages/Admin/Admin_Reports';
 import Admin_Announcements from './assets/pages/Admin/Admin_Announcements';
 import Admin_FAQsManagement from './assets/pages/Admin/Admin_FAQsManagement';
+import Employee_Dashboard from './assets/pages/Employee/Employee_Dashboard';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/admin/reports" element={<Admin_Reports />} />
       <Route path="/admin/announcements" element={<Admin_Announcements />} />
       <Route path="/admin/faqs_management" element={<Admin_FAQsManagement />} />
+      <Route path="/employee/dashboard" element={<Employee_Dashboard />} />
       </Routes>
     </Router>
   );

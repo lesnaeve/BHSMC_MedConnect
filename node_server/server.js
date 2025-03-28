@@ -24,7 +24,7 @@ app.use(express.json());
 let activeTokens = {}; // Store active tokens and their last activity timestamps
 
 app.post('/login', async (req, res) => {
-    const { user_id, password } = req.body;
+    const { user_id, password } = req.body; // Removed user_type from here
 
     try {
         // Check if user exists
@@ -51,8 +51,8 @@ app.post('/login', async (req, res) => {
         // Store the token and the current timestamp
         activeTokens[token] = Date.now();
 
-        // Send the token back to the client
-        res.json({ token });
+        // Send the token and user_type back to the client
+        res.json({ token, user_type: user.user_type }); // Ensure user_type is included
     } catch (error) {
         console.error('Error during login:', error);
         res.status(500).json({ message: 'Internal server error' });
