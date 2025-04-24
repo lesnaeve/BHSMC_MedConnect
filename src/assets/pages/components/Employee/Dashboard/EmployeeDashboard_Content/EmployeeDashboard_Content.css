@@ -1,0 +1,13 @@
+.employee-dashboard-content{
+    width: 75%;
+}
+
+.employee-dashboard-title{
+    color: #04ace2;
+}
+
+.employee-dashboard-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
