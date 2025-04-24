@@ -1,0 +1,47 @@
+.employee-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    height: 94vh;
+}
+
+.employee-menu-logo{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.color1{
+    color: #60bb44;
+}
+
+.color2{
+    color: #04ace2;
+}
+
+.employee-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.employee-menu-list .item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #04ace2;
+}
+
+.employee-menu-list .item:hover,
+.active{
+    background-color: #60bb44;
+    color: #fff !important;
+}

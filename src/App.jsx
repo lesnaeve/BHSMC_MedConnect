@@ -8,6 +8,8 @@ import Admin_Reports from './assets/pages/Admin/Admin_Reports';
 import Admin_Announcements from './assets/pages/Admin/Admin_Announcements';
 import Admin_FAQsManagement from './assets/pages/Admin/Admin_FAQsManagement';
 import Employee_Dashboard from './assets/pages/Employee/Employee_Dashboard';
+import Employee_MyTickets from './assets/pages/Employee/Employee_MyTickets';
+import Employee_SubmitTicket from './assets/pages/Employee/Employee_SubmitTicket';
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
       <Route path="/admin/announcements" element={<Admin_Announcements />} />
       <Route path="/admin/faqs_management" element={<Admin_FAQsManagement />} />
       <Route path="/employee/dashboard" element={<Employee_Dashboard />} />
+      <Route path="/employee/my_tickets" element={<Employee_MyTickets />} />
+      <Route path="/employee/submit_ticket" element={<Employee_SubmitTicket />} />
       </Routes>
     </Router>
   );
