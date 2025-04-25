@@ -1,8 +1,8 @@
 import React from 'react'
-import '../../../Employee/Employee_Sidebar.css'
+import '../../../../Employee/Employee_Sidebar.css'
 import { FaHome } from "react-icons/fa";
 import { LuTickets } from "react-icons/lu";
-import menu_logo from '../../../../img/Sidebar/logo.png'
+import menu_logo from '../../../../../img/Sidebar/logo.png'
 
 const SubmitTicket_Sidebar = () => {
   return (

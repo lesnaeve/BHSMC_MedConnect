@@ -1,18 +1,18 @@
-.mytickets-content{
+.submit_ticket-content{
     width: 100%;
 }
 
-.mytickets-title{
+.submit_ticket-title{
     color: #04ace2;
 }
 
-.mytickets-header{
+.submit_ticket-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.my-tickets-activity-header{
+.submit_ticket-activity-header{
     display: flex;
     align-items: center;
     gap: 20px;
