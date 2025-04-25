@@ -1,0 +1,19 @@
+.mytickets-content{
+    width: 75%;
+}
+
+.mytickets-title{
+    color: #04ace2;
+}
+
+.mytickets-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-tickets-activity-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
